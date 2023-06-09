@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-def add(a, b):
-    a = 1
-    b = 2
-    print("<a value> + <b value> = <add(a, b) value>")
-    return (a + b)
+from add_0 import add
+
+result = add(1,2)
+print(f"1 + 2 = {result}")
