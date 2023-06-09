@@ -2,5 +2,5 @@
 def add(a, b):
     a = 1
     b = 2
-    print("{} + {} = {}".format("1", "2", "3"))
-    return a + b
+    print("<a value> + <b value> = <add(a, b) value>")
+    return (a + b)
